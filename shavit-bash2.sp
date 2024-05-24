@@ -1046,7 +1046,7 @@ public Action Hook_GroundFlags(int entity, const char[] PropName, int &iValue, i
 //this fixes client disconnects due to QueryForCvars overflowing the reliable stream during network interruption
 #define MAX_CONVARS 12
 
-enum QueryConVars
+enum
 {
     CONVAR_YAWSPEED,
     CONVAR_YAW,
